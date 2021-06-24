@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash1"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/laybiceps"
+                android:layout_marginTop="400dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_bg"
+                android:orientation="horizontal"
+                android:backgroundTint="#bcc0ba"
+              >
+
+                <ImageView
+                    android:id="@+id/imgbiceps"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@drawable/muscle" />
+
+                <TextView
+                    android:id="@+id/txtbiceps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:gravity="center"
+                    android:text="BICEPS"
+
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/laychest"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/layout_bg"
+                android:orientation="horizontal"
+                android:backgroundTint="#bcc0ba">
+
+                <ImageView
+                    android:id="@+id/imgchest"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@drawable/body" />
+
+                <TextView
+                    android:id="@+id/txtchest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:gravity="center"
+                    android:text="CHEST"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="#539FDF" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/laylegs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/layout_bg"
+                android:orientation="horizontal"
+                android:backgroundTint="#bcc0ba">
+
+                <ImageView
+                    android:id="@+id/imglegs"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@drawable/legs" />
+
+                <TextView
+                    android:id="@+id/txtlegs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:gravity="center"
+                    android:text="@string/legs"
+                    android:textSize="40sp"
+                    app:backgroundTint="#2584CF" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layfullbody"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/layout_bg"
+                android:backgroundTint="#bcc0ba"
+                android:hapticFeedbackEnabled="false"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgfullbody"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@drawable/brawn" />
+
+                <TextView
+                    android:id="@+id/txtfullbody"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:gravity="center"
+                    android:text="FULL BODY"
+                    android:textSize="40dp"
+                    app:backgroundTint="#0679D5" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</ScrollView>
